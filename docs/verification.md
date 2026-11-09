@@ -74,7 +74,7 @@ frontend: Prettier --check → All matched files use Prettier code style!
 - 샌드박스 내 uv 캐시/pytest 임시 폴더 권한 문제를 프로젝트 내부 캐시/임시 경로로 해결했다.
 - 샌드박스 내 TestClient의 스레드 시작과 네트워크 접근이 멈추어 테스트/공개 패키지 설치/루프백 서버 검증을 필요한 명령만 권한 확장하여 실행했다. 권한 확장 후 결과를 위에 기록했다.
 - Docker 명령이 설치되지 않아 이미지 빌드, `docker compose config/up`, 컨테이너 healthcheck 연결은 미실행이다. Dockerfile/Compose 제공과 로컬 실행 성공을 구분한다.
-- 원격 GitHub 저장소 생성·커밋·푸시·공개 배포는 수행하지 않았다.
+- 최초 로컬 코드 검증 후 독립 Public GitHub 저장소를 생성하고 커밋·push했다. API 수집 조건은 [publication.md](publication.md)에 기록한다. 애플리케이션 공개 서버 배포는 수행하지 않았다.
 
 ## 실제 브라우저 검증
 

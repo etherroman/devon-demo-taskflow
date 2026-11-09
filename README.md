@@ -229,7 +229,7 @@ npm run build
 npm run format:check
 ```
 
-현재 검증 결과는 [docs/verification.md](docs/verification.md)에 기록했습니다. 이 프로젝트는 커밋·원격 저장소 생성·푸시·공개 배포를 수행하지 않은 상태입니다.
+코드 실행 결과는 [docs/verification.md](docs/verification.md)에 기록했습니다. [etherroman/devon-demo-taskflow](https://github.com/etherroman/devon-demo-taskflow)에 독립 Public 저장소로 게시했으며, GitHub API 수집 조건의 확인 결과는 [게시 검증](docs/publication.md)에 기록합니다. 애플리케이션의 공개 서버 배포는 수행하지 않았습니다.
 
 ## 범위와 알려진 한계
 
